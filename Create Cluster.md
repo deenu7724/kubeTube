@@ -44,7 +44,6 @@ EOF
 7.	Restart docker
 >systemctl daemon-reload
 >systemctl restart docker
-Note:- Use the URL to get commands in kubernetes document.(https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 8.	Run the commands the command to install kubeadm, kubectl and Kubelet tool
 >sudo apt-get update && sudo apt-get install -y apt-transport-https curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
@@ -72,4 +71,5 @@ Note:- These command are required to perform on all VMs of the cluster and below
 >kubeadm join <your unique string from the kubeadm init command>
 
 Note:- Use the URL to get commands in kubernetes.
+(https://kubernetes.io/docs/setup/production-environment/container-runtimes/)
 (https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
