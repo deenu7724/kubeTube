@@ -15,7 +15,7 @@ Create a Cluster Using Kubeadm tool in VMs
 apt-transport-https ca-certificates curl software-properties-common gnupg2
 
 3.	Add Docker’s official GPG key
->curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+> curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
 
 4.	Add the Docker repository:
 >add-apt-repository \
